@@ -1,33 +1,35 @@
 import React from 'react';
 import Button from './Button';
 import { motion } from 'framer-motion';
-import { image, title } from 'framer-motion/client';
-
+import urlShorting from '../assets/imgProject/urlShorting.png';
+import institute from '../assets/imgProject/institute.png';
+import space1 from '../assets/imgProject/space1.png';
+import portfolio from '../assets/imgProject/portfolio.png';
 const projects = [
     {
         title: 'URL Shortening Web App',
-        image: '/src/assets/imgProject/urlShorting.png', // حطي المسار الصحيح للصورة
+        image: urlShorting,
         tools: ['React','Vite', 'Tailwind', 'TanStack Query', 'API Integration'],
         link: 'https://url-shorting-q4ev.vercel.app/',
         github: 'https://github.com/Semavmohamed/URLShorting'
     },
     {
         title: 'Institute Management System',
-        image: '/src/assets/imgProject/institute.png',
+        image: institute,
         tools: ['React','Vite', 'PHP', 'MySQL', 'QR', 'JWT', 'Dashboard'],
         link: 'https://latshin.com',
         github: 'https://github.com/Semavmohamed/latshinInstitute'
     },
     {
         title: 'Space Travel',
-        image: '/src/assets/imgProject/space1.png',
+        image: space1,
         tools: ['React', 'LandingPage', 'Challenge'],
         link: 'https://space-travel-liart.vercel.app/',
         github: 'https://github.com/Semavmohamed/SpaceTravel'
     },
      {
         title: 'My Portfolio',
-        image: '/src/assets/imgProject/portfolio.png',
+        image: portfolio,
         tools: ['React', 'LandingPage', 'Tailwind CSS','Vite','Portfolio'],
         link: '#home',
         github: 'https://github.com/Semavmohamed/SpaceTravel'
