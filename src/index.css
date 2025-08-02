@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* smooth scroll */
+html {
+  scroll-behavior: smooth;
+}
+body{
+  background-color:#101722;
+box-sizing: content-box;
+}
+
+.gradient{
+  @apply  bg-gradient-to-r from-purple-400 via-pink-500 to-blue-500 bg-clip-text text-transparent; 
+}
+
+/* //hero --> services section */
+.cardAnimate{
+  @apply  text-left bg-transparent border-2  p-5 mt-10 w-full  mx-auto rounded-lg text-stone-300 shadow-customBlue;
+}
+
+    
